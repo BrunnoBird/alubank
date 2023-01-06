@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import '../components/sections/account_actions.dart';
+import '../components/sections/account_points.dart';
 import '../components/sections/header.dart';
 import '../components/sections/recent_activity.dart';
 
@@ -12,6 +14,8 @@ class Home extends StatelessWidget {
         children: const [
           Header(),
           RecentActivity(),
+          AccountActions(),
+          AccountPoints(),
         ],
       ),
     );

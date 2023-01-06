@@ -7,7 +7,8 @@ class BoxCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    //INK -> diz para o inkwell desenhar o efeito de reaple por cima, pois o container ele fica sobreposto o efeito.
+    return Ink(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
           boxShadow: kElevationToShadow[3],

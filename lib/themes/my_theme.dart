@@ -6,6 +6,7 @@ ThemeData myTheme = ThemeData(
   primaryColor: ThemeColors.primaryColor,
   //Thema dark ou light
   brightness: Brightness.dark,
+  fontFamily: 'Raleway',
   textButtonTheme: TextButtonThemeData(
     style: ButtonStyle(
       textStyle: MaterialStateTextStyle.resolveWith(
@@ -14,12 +15,15 @@ ThemeData myTheme = ThemeData(
     ),
   ),
   textTheme: const TextTheme(
-    bodyMedium: TextStyle(
-      fontSize: 16,
-    ),
-    bodyLarge: TextStyle(
-      fontSize: 28,
-      fontWeight: FontWeight.bold,
-    ),
-  ),
+      bodyMedium: TextStyle(
+        fontSize: 16,
+      ),
+      bodyLarge: TextStyle(
+        fontSize: 28,
+        fontWeight: FontWeight.bold,
+      ),
+      titleMedium: TextStyle(
+        fontSize: 20,
+        fontWeight: FontWeight.normal,
+      )),
 );
